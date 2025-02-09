@@ -18,7 +18,7 @@ jobs:
       - name : SSH into EC2
         uses: appleboy/ssh-action@v1.2.0
         with:
-          host: 172.31.30.153
+          host: 54.145.8.215
           username: ubuntu
           key: ${{ secrets.PRIVATE_SSH_KEY}}
           port: 22
